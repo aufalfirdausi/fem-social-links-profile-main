@@ -16,3 +16,36 @@ body  {
             padding: 35px;
             border-radius: 10px;
 }
+.avatar {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.desc-name{
+    color: rgb(54, 224, 0);
+}
+
+.desc-2 {
+    padding-top: 30px;
+    color: grey;
+}
+
+.medsos {
+    display: flex;
+    flex-direction: column;
+}
+    
+
+.medsos a {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(60, 60, 60);
+    border-radius: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.medsos a:hover{ 
+    background-color: rgb(54, 224, 0);
+    color: black;
+}
